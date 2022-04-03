@@ -202,7 +202,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
-var CLASS_ACTIVE = 'active';
+var CLASS_ACTIVE = 'visible';
 var wrapList = document.querySelectorAll('.js-tabs');
 
 var tabs = function () {
