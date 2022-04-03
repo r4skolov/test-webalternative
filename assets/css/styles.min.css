@@ -1392,11 +1392,7 @@ input:focus::placeholder {
     padding-bottom: 4rem
 }
 
-.clients__container {
-    max-width: 1573px;
-    overflow: hidden;
-    padding: 0 80px 0 0
-}
+
 
 .clients__title {
     font-weight: 400;
@@ -1765,10 +1761,16 @@ input:focus::placeholder {
         text-align: left
     }
 
-.about__text {
+    .about__text {
         font-size: 1.8rem;
         line-height: 1.6;
         text-align: start
+    }
+
+    .clients__container {
+        max-width: 1573px;
+        overflow: hidden;
+        padding: 0 80px 0 0
     }
 
     .about__logos {
