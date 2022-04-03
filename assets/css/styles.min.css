@@ -1767,11 +1767,7 @@ input:focus::placeholder {
         text-align: start
     }
 
-    .clients__container {
-        max-width: 1573px;
-        overflow: hidden;
-        padding: 0 80px 0 0
-    }
+ 
 
     .about__logos {
         display: block
@@ -1959,6 +1955,12 @@ input:focus::placeholder {
         font-size: 4.2rem;
         line-height: 1.2;
         margin-bottom: 20rem
+    }
+
+    .clients__container {
+        max-width: 1573px;
+        overflow: hidden;
+        padding: 0 80px 0 0
     }
 
     .clients-num {
