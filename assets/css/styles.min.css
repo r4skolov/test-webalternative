@@ -2034,13 +2034,11 @@ input:focus::placeholder {
 }
 
 @media (max-width:768px) {
-    .work__list-item.open .work__list-count {
-        color: #ef8b54
-    }
-}
-
-@media (max-width:320px) {
     .work {
         background-color: #fff;
+    }
+
+    .work__list-item.open .work__list-count {
+        color: #ef8b54
     }
 }
