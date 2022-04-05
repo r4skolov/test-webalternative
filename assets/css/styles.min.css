@@ -134,10 +134,11 @@ html {
 }
 
 body {
+    background-color: #330505;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: Montserrat;
-    min-width: 320px
+    min-width: 320px;
 }
 
 .wrapper,
@@ -931,18 +932,18 @@ input:focus::placeholder {
     background-image: url(../images/test.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 23px
+    background-position-y: 23px;
 }
 
 .hero__subtitle {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .hero__subtitle img {
     width: 10px;
-    height: 10px
+    height: 10px;
 }
 
 .hero__subtitle-text {
@@ -950,7 +951,7 @@ input:focus::placeholder {
     font-size: 12.5492px;
     line-height: 15px;
     color: #ff834e;
-    margin-left: .6rem
+    margin-left: .6rem;
 }
 
 .hero__title {
@@ -958,19 +959,19 @@ input:focus::placeholder {
     font-size: 20.7996px;
     line-height: 28px;
     color: #fff;
-    margin-bottom: 3rem
+    margin-bottom: 3rem;
 }
 
 .hero__text {
     display: none;
     font-weight: 400;
     line-height: 1.35;
-    color: #fff
+    color: #fff;
 }
 
 .hero__callback {
     display: flex;
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
 }
 
 .hero__callback-text {
@@ -982,7 +983,7 @@ input:focus::placeholder {
     font-variant: small-caps;
     color: #fff;
     margin-top: 1rem;
-    text-align: center
+    text-align: center;
 }
 
 .hero-callback {
@@ -994,11 +995,11 @@ input:focus::placeholder {
     color: #fff;
     padding: 2rem 12rem 2rem 2rem;
     position: relative;
-    transition: all .3s ease
+    transition: all .3s ease;
 }
 
 .hero-callback:hover {
-    background-color: #de774b
+    background-color: #de774b;
 }
 
 .hero-callback:after {
