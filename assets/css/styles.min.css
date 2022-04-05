@@ -134,7 +134,7 @@ html {
 }
 
 body {
-    background-color: #330505;
+    background-color: #292929;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: Montserrat;
@@ -1015,7 +1015,6 @@ input:focus::placeholder {
 }
 
 .work {
-    background-color: #fff;
     padding-top: 4rem;
     padding-bottom: 4rem
 }
@@ -2037,5 +2036,11 @@ input:focus::placeholder {
 @media (max-width:768px) {
     .work__list-item.open .work__list-count {
         color: #ef8b54
+    }
+}
+
+@media (max-width:320px) {
+    .work {
+        background-color: #fff;
     }
 }
